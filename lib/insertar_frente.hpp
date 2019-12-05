@@ -1,0 +1,17 @@
+////////////////////////////////////////////////////////////////
+
+LISTA Insertar_Frente (
+  LISTA _lista,
+  int   _valor
+){
+
+  LISTA nueva_raiz = new NODO;
+
+  nueva_raiz->val = _valor;
+  nueva_raiz->sig = _lista;
+
+  return nueva_raiz;
+
+}
+
+////////////////////////////////////////////////////////////////

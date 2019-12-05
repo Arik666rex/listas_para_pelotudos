@@ -1,0 +1,23 @@
+////////////////////////////////////////////////////////////////
+
+int Largo (
+  LISTA _lista
+){
+
+  int largo = 0;
+
+  for (
+    LISTA nodo    = _lista;
+          nodo isnt NULL;
+          nodo    = nodo->sig
+  ){
+
+    largo += 1;
+
+  }
+
+  return largo;
+
+}
+
+////////////////////////////////////////////////////////////////

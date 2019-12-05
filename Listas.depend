@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1575537847 source:o:\github\repositories\listas\main.cpp
+	<iostream>
+	"./lib/lista.hpp"
+	"./lib/lista_vacia.hpp"
+	"./lib/es_vacia.hpp"
+	"./lib/borrar_lista.hpp"
+	"./lib/mostrar_lista.hpp"
+	"./lib/insertar_frente.hpp"
+	"./lib/insertar_fondo.hpp"
+	"./lib/menor_valor.hpp"
+	"./lib/mayor_valor.hpp"
+	"./lib/suma.hpp"
+	"./lib/largo.hpp"
+	"./lib/promedio.hpp"
+	"./lib/invertir_lista.hpp"
+
+1575534471 o:\github\repositories\listas\lib\lista.hpp
+
+1575534590 o:\github\repositories\listas\lib\lista_vacia.hpp
+
+1575535291 o:\github\repositories\listas\lib\es_vacia.hpp
+
+1575535575 o:\github\repositories\listas\lib\borrar_lista.hpp
+
+1575536166 o:\github\repositories\listas\lib\mostrar_lista.hpp
+
+1575536423 o:\github\repositories\listas\lib\insertar_frente.hpp
+
+1575536962 o:\github\repositories\listas\lib\insertar_fondo.hpp
+
+1575537210 o:\github\repositories\listas\lib\menor_valor.hpp
+
+1575537257 o:\github\repositories\listas\lib\mayor_valor.hpp
+
+1575537371 o:\github\repositories\listas\lib\suma.hpp
+
+1575537493 o:\github\repositories\listas\lib\largo.hpp
+
+1575537605 o:\github\repositories\listas\lib\promedio.hpp
+
+1575537936 o:\github\repositories\listas\lib\invertir_lista.hpp
+

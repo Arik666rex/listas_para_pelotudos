@@ -1,0 +1,15 @@
+////////////////////////////////////////////////////////////////
+
+float Promedio (
+  LISTA _lista
+){
+
+  float suma     = Suma(  _lista );
+  float cantidad = Largo( _lista );
+  float promedio = ( suma / cantidad );
+
+  return promedio;
+
+}
+
+////////////////////////////////////////////////////////////////
