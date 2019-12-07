@@ -24,6 +24,12 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="lib/borrar_lista.hpp" />
+		<Unit filename="lib/buscar.hpp" />
+		<Unit filename="lib/copiar_desde_valor.hpp" />
+		<Unit filename="lib/copiar_lista.hpp" />
+		<Unit filename="lib/eliminar_posicion.hpp" />
+		<Unit filename="lib/eliminar_valor.hpp" />
+		<Unit filename="lib/encontrar.hpp" />
 		<Unit filename="lib/es_vacia.hpp" />
 		<Unit filename="lib/insertar_fondo.hpp" />
 		<Unit filename="lib/insertar_frente.hpp" />
@@ -34,6 +40,7 @@
 		<Unit filename="lib/mayor_valor.hpp" />
 		<Unit filename="lib/menor_valor.hpp" />
 		<Unit filename="lib/mostrar_lista.hpp" />
+		<Unit filename="lib/posicion.hpp" />
 		<Unit filename="lib/promedio.hpp" />
 		<Unit filename="lib/suma.hpp" />
 		<Unit filename="main.cpp" />

@@ -20,6 +20,13 @@
 #include "./lib/largo.hpp"
 #include "./lib/promedio.hpp"
 #include "./lib/invertir_lista.hpp"
+#include "./lib/posicion.hpp"
+#include "./lib/encontrar.hpp"
+#include "./lib/buscar.hpp"
+#include "./lib/copiar_lista.hpp"
+#include "./lib/copiar_desde_valor.hpp"
+#include "./lib/eliminar_valor.hpp"
+#include "./lib/eliminar_posicion.hpp"
 
 ////////////////////////////////////////////////////////////////
 
@@ -53,6 +60,14 @@ int main (){
 
   //////////////////////////////////////////////////////////////
 
+  std::cout << "sublista desde 3: ";
+  LISTA sublista = Copiar_Desde_Valor( lista, 3 );
+                   Mostrar_Lista( sublista );
+        sublista = Borrar_Lista(  sublista );
+  std::cout << "\n";
+
+  //////////////////////////////////////////////////////////////
+
   std::cout << "\n";
   std::cout << "menor:    " << Menor_Valor( lista ) << "\n";
   std::cout << "mayor:    " << Mayor_Valor( lista ) << "\n";
@@ -63,6 +78,13 @@ int main (){
 
   //////////////////////////////////////////////////////////////
 
+  std::cout << "posicion 3: " << Posicion(           lista, 3 ) << "\n";
+  std::cout << "buscar   3: " << Buscar(             lista, 3 ) << "\n";
+  std::cout << "\n";
+
+  //////////////////////////////////////////////////////////////
+
+  std::cout << "invertir lista: " << "\n";
   LISTA invertida = Invertir_Lista( lista );
 
   Mostrar_Lista( invertida );
@@ -70,6 +92,20 @@ int main (){
   invertida = Borrar_Lista( invertida );
 
   Mostrar_Lista( invertida );
+  std::cout << "\n";
+
+  //////////////////////////////////////////////////////////////
+
+  std::cout << "eliminar 5:   ";
+  lista = Eliminar_Valor( lista, 5 );
+          Mostrar_Lista(  lista    );
+  std::cout << "\n";
+
+  std::cout << "eliminar [2]: ";
+  lista = Eliminar_Posicion( lista, 2 );
+          Mostrar_Lista(     lista    );
+  std::cout << "\n";
+  std::cout << "\n";
 
   //////////////////////////////////////////////////////////////
 
